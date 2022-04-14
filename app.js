@@ -149,11 +149,140 @@
 
 
 
-// Q:
+// Q:10
 
 
-for(var i=1;i<=20;i++)
-{
-    document.write(i*5 +" ");
-}
+// for(var i=1;i<=20;i++)
+// {
+//     document.write(i*5 +" ");
+// }
 
+
+// ================== first chap end =================
+
+
+
+// ==================== second chap  =======================
+
+// Q:1
+//literal notaion array//
+// var array = [];
+
+// Q:2
+//object notation array//
+
+// var array = new Array();
+
+
+// Q:3
+// var string = ["ahad", "age" , "football"]
+
+// document.write(string)
+
+// Q:4
+// var num = [1,2,3,4,5,6,]
+
+// document.write(num)
+
+// Q:5
+// var boolean = [true,false]
+// document.write(boolean)
+
+// Q:6
+// var mixedarray = ["ahad", 1 , true , null , undefined ]
+// document.write(mixedarray)
+
+// Q:7
+// var array = ["SSC" , "HCS" , "BCS" , "BS" , "BCOM" , "MS" , "M.PHIL" , "PHD"]
+// for(var i = 0 ; i < array.length ; i++)
+// {
+// document.write(array[i] +"<br>" )
+              
+
+// }
+// Q:8
+// var studentName = ["micheal " ," John " , " tony "]
+
+// var score = [320,230,480]
+
+// // document.write("score of " + studentName [0] + " is " + score [0]  + " perventage "  + score[0]/500*100 + " <br>")
+// // document.write("score of " + studentName[1] + " is " + score [1]   + " perventage "  + score[1]/500*100 + " <br>")
+// // document.write("score of " + studentName[2] + " is " + score [2]   + " perventage "  + score[2]/500*100 + " <br>")
+              
+// for(var i=0;i<3;i++) i=3
+// {
+//     document.write("score of " + studentName [i] + " is " + score [i]  + " perventage "  + score[i]/500*100 + " <br>")
+// }                                
+
+
+// Q:10
+// var scoreOfsutdents = ["320" , "230" , "480" , "120"]
+
+// document.write("score of students " + scoreOfsutdents + "<br>")
+
+// scoreOfsutdents.sort();
+
+// document.write(scoreOfsutdents)
+
+
+// Q:11
+
+// var CitiesList = [" Karachi " , " Lahore " , " Islamabad " , " Quetta " , "Peshawar"];
+// document.write(" CitiesList: " + CitiesList + "<br>")
+
+// var selectedCititeslist = CitiesList.slice(2 , 4)
+// document.write(" Selectedcitieslist: " + selectedCititeslist)
+
+
+// Q:12
+
+// var a = [" This" ,"is" , "my" , "cat"]
+
+// document.write("Array :" + a +"<br>");
+
+// var b = a.join (" ")
+
+// document.write(" String :" +b)
+
+
+
+
+
+// Q:13 //FiFo //
+
+
+// var a = ['keyboard','mouse','printer','monitor']
+
+
+// for(var i=0;i<4;i++)
+// {
+//     document.write("<br>" + " Out: "+ a.shift())
+// }
+
+ 
+
+// Q:14 //LiFo //
+
+
+// var a = ['keyboard','mouse','printer','monitor']
+
+
+// // for(var i=0;i<4;i++)
+// // {
+// //     document.write("<br>" + " Out: "+ a.pop())
+// // }
+
+
+
+
+// // Q:15
+// var arr  = ["Apple", " Samsung " , " Motorola " , " Nokia " , "Sony and Haier"]
+    
+//     document.write( " <Select> <option> "+arr[0]+" </option> <option> "+arr[1]+" </option> <option> "+arr[2]+" </option> <option> "+arr[3]+" </option> <option> "+arr[4]+" </option>  <select> ");
+
+
+
+// ======================= second chap end ===============================
+
+
+ 
